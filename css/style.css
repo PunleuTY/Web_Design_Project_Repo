@@ -1,0 +1,12 @@
+/* Variables */
+:root{
+    --mainFont: Inria-Serif;
+    --primaryFont: Inter;
+    --mainCol: #1F4A42;
+    --primaryCol: #E6DFCA;
+}
+/* General Style */
+body{
+    margin: 0px;
+    padding: 0px;
+}

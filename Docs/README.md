@@ -20,7 +20,8 @@ An E-Commerce website store to support buying and selling products online, which
 ```
 ecommerce-website/
 │
-├── index.html         # Home page
+├── index.html         # Login Page
+├── landingpage.html   # Landing Page of the webstore
 ├── about.html         # About Us page
 ├── contact.html       # Contact Us page
 ├── cart.html          # Shopping cart page
@@ -30,6 +31,8 @@ ecommerce-website/
 ├── payment.html       # Cart Payment Page
 ├── productDetail.html # Detail Descrition about a Product
 ├── saved.html         # For Saved Products
+├── userProfile.html   # For Display User Profile
+├── singup.html        # Create Account Page
 │
 ├── css/               # CSS files
 │   ├── styles.css     # Main CSS file for the website

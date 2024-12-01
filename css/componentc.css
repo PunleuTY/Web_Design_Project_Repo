@@ -13,6 +13,9 @@
 header{
     background-color: var(--lightGray);
     color: var(--dark);
+    font-family: var(--primaryFont);
+    position: sticky;
+    top: 0px;
 }
 
 .upper-header{
@@ -22,10 +25,24 @@ header{
     padding: 10px 20px;
 }
 
+section.breadcrumb-container{
+    padding: 10px 20px;
+    color: #a5a3a3;
+    border-bottom: 1px solid #D6D6D6;
+}
+
+section.breadcrumb-container a{
+    color: #a5a3a3;
+}
+
 .logo-container a{
     font-family: var(--mainFont);
     font-size: 2em;
     font-weight: bold;
+}
+
+main{
+    padding: 10px;
 }
 
 a:hover,
@@ -73,6 +90,14 @@ i.fa-search{
     display: flex;
     font-size: 1.3em;
     gap: 1.3em;
+}
+
+.toolbar-container a{
+    transition: transform 0.2s ease;
+}
+
+.toolbar-container a:hover{
+    transform: scale(1.1);
 }
 
 nav{

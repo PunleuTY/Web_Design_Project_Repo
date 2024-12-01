@@ -3,10 +3,24 @@
     --mainFont: Inria-Serif;
     --primaryFont: Inter;
     --mainCol: #1F4A42;
-    --primaryCol: #E6DFCA;
+    --primaryCol: #F2D07D;
 }
 /* General Style */
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
     margin: 0px;
     padding: 0px;
+    height: 100%;
+}
+.advertise-text-run{
+    background-color: var(--primaryCol);
+    display: flex;
+    align-items: center;
+    height: 30px;
+    color: var(--mainCol);
+    font-family: var(--primaryFont);
+    font-weight: bold;
 }

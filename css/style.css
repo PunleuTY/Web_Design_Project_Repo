@@ -11,9 +11,13 @@
     padding: 0px;
 }
 body{
+    height: 100vh;
     margin: 0px;
     padding: 0px;
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
 }
 .advertise-text-run{
     background-color: var(--primaryCol);

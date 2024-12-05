@@ -1,89 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="HTML, CSS, Fashion Vista, clothing, fashion, men wear, women wear, kids clothing, online store">
-    <meta name="description" content="ecommerce website, selling clothes, Discover trendy, high-quality clothing for men, women, and kids at Fashion Vista. Shop the latest styles with fast delivery and affordable prices.">
-    <meta name="author" content="Leang Chhay, Punleu, Rath, Mey">
-    <link rel="icon" type="image/x-icon" href="Images/FVLogo.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Koulen&family=Monomaniac+One&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Young+Serif&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Koulen&family=Monomaniac+One&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Young+Serif&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/276f53de02.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/componentc.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, Fashion Vista, clothing, fashion, men wear, women wear, kids clothing, online store"
+    />
+    <meta
+      name="description"
+      content="ecommerce website, selling clothes, Discover trendy, high-quality clothing for men, women, and kids at Fashion Vista. Shop the latest styles with fast delivery and affordable prices."
+    />
+    <meta name="author" content="Leang Chhay, Punleu, Rath, Mey" />
+    <link rel="icon" type="image/x-icon" href="Images/FVLogo.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Concert+One&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Koulen&family=Monomaniac+One&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Concert+One&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Koulen&family=Monomaniac+One&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/276f53de02.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/componentc.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    
     <title>Fashion Vista</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="upper-header">
-            <div class="logo-container"><a href="home.html" class="logo">Fashion Vista</a></div>
-            <i class="fa fa-search" aria-hidden="true"></i>
-            <form action="">
-                <input type="search" class="search-bar-container" name="search" id="product" placeholder="Search what you're looking for">
-            </form>
-            <div class="toolbar-container">
-                <a href="cart.html" class="tool-icons"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                <a href="saved.html" class="tool-icons"><i class="fa fa-heart" aria-hidden="true"></i></a>
-                <a href="userProfile.html" class="tool-icons"><i class="fa fa-user" aria-hidden="true"></i></a>
-            </div>
+      <div class="upper-header">
+        <div class="logo-container">
+          <a href="home.html" class="logo">Fashion Vista</a>
         </div>
-        <nav>
-            <a href="men.html" class="nav-links">Men</a>
-            <a href="women.html" class="nav-links">Women</a>
-            <a href="kid.html" class="nav-links">Kids</a>
-        </nav>
-        <section class="breadcrumb-container">
-            <a href="home.html">Home</a> > 
-            <a href="women.html">Women</a> >
-            <a href="payment.html">Payment</a>
-        </section>
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <form action="">
+          <input
+            type="search"
+            class="search-bar-container"
+            name="search"
+            id="product"
+            placeholder="Search what you're looking for"
+          />
+        </form>
+        <div class="toolbar-container">
+          <a href="cart.html" class="tool-icons"
+            ><i class="fa fa-shopping-cart" aria-hidden="true"></i
+          ></a>
+          <a href="saved.html" class="tool-icons"
+            ><i class="fa fa-heart" aria-hidden="true"></i
+          ></a>
+          <a href="userProfile.html" class="tool-icons"
+            ><i class="fa fa-user" aria-hidden="true"></i
+          ></a>
+        </div>
+      </div>
+      <nav>
+        <a href="men.html" class="nav-links">Men</a>
+        <a href="women.html" class="nav-links">Women</a>
+        <a href="kid.html" class="nav-links">Kids</a>
+      </nav>
+      <section class="breadcrumb-container">
+        <a href="home.html">Home</a> >
+        <a href="payment.html">Payment</a>
+      </section>
     </header>
     <main class="payment-page"></main>
+
+    <div class="payment-content">
+      <div class="shipping-address">
+        <h2>Pay for your product</h2>
+        <div class="description">
+          <p style="font-weight: bold">Shipping Address</p>
+          <div class="lower-des">
+            <i
+              class="fa fa-check-circle"
+              style="font-size: 25px; color: rgb(237, 237, 78)"
+            ></i>
+            <p style="color: #969696; margin-top: 3px">
+              Your address information is safe with us
+            </p>
+          </div>
+          <div class="button">
+            <div class="country-btn">
+              <label for="country">
+                <input type="text" placeholder="Country" />
+              </label>
+            </div>
+            <div class="fName-btn">
+              <label for="firstName">
+                <input type="text" placeholder="First Name">
+              </label>
+            </div>
+            <div class="lName-btn">
+              <label for="lastName">
+                <input type="text" placeholder="Last Name">
+              </label>
+            </div>
+            <div class="streetAddress-btn">
+              <label for="streetAddress">
+                <input type="text" placeholder="Street Address">
+              </label>
+            </div>
+            <div class="city-btn">
+              <label for="city">
+                <input type="text" placeholder="City Address">
+              </label>
+            </div>
+            <div class="postal-btn">
+              <label for="postalCode">
+                <input type="text" placeholder="Postal Code">
+              </label>
+            </div>
+            <div class="phoneNumber-btn">
+              <label for="phoneNumber">
+                <input type="text" placeholder="Phone Number">
+              </label>
+            </div>
+          </div>
+          <div class="upper-des">
+            <p style="font-weight: bold; margin-top: -10px"> Payment Method <br> <p style="color: #969696; margin-top: 7px"> All transaction are secure and encrypted</p></p>
+          </div>
+          <div class="card-btn">
+            <label for="card-number"> Card Number <br>
+              <input type="text" placeholder="1234 1234 1234 1234 1234" >
+            </label>
+          </div>
+          <div class="experation-cvc">
+            <label for="experation">
+              <p> Experation </p>
+              <input type="text" placeholder=" MM /YY " style="width: 340px; height: 40px">
+            </label>
+            <label for="CVC">
+              <p> CVC </p>
+              <input type="text" placeholder="CVC" style="width: 340px; height: 40px">
+            </label>
+          </div>
+          <div class="purchase-btn">
+            <label for="purchase">
+              <input type="submit" value="Purchase"   placeholder="Purchase" style="margin-top: 15px; width: 150px;height: 35px; margin-left: 555px; background: #1F4A42; color: white">
+            </label>
+          </div>
+          <hr class="horizontal-line" style="width: 705px; margin-top: 10px">
+          <div class="bank">
+            <i class="fa fa-cc-visa" style="font-size:30px;color:red;"></i>
+            <i class="fa fa-cc-paypal" style="font-size:30px;color:red"></i>
+            <i class="fa fa-cc-mastercard" style="font-size:30px;color:red"></i>
+          </div>
+        </div>
+        
+      </div>
+      <div class="reciept">
+        <div class="reciept-content">
+            <div class="item1">
+              <div class="item1-img" style="width: 62px; height: 69px; background: whitesmoke ; border: 2px solid; ">
+                <div class="notifi" style="border-radius: 50px; background: #1F4A42; border: 2px solid; position:absolute; width: 20px; height: 20px; margin-left: 50px; margin-top: -10px"><p style="color: white; margin-left:5px"> 1</p></div>
+              </div>
+              <div class="item1-des" >
+                <div class="brandname">
+                  <p style="font-size : 20px"> Sara Long-Sleeve Shirt </p>
+                </div>
+                <div class="color" style="color : #B89D9D;">
+                  <p> Color: </p>
+                  <div class="color-display" style="background: rgb(96, 96, 239); width: 16px; height: 16px"></div>
+                </div>
+                <div class="size">
+                  <p style="color: #B89D9D;"> Size : XL</p>
+                </div>
+              </div>
+            </div>
+            <div class="item2">
+              <div class="item2-img" style="width: 62px; height: 69px; background: whitesmoke;border: 2px solid; ">
+                <div class="notifi" style="border-radius: 50px; background: #1F4A42; border: 2px solid; position:absolute; width: 20px; height: 20px; margin-left: 50px; margin-top: -10px"><p style="color: white; margin-left:5px"> 2</p></div>
+              </div>
+              <div class="item2-des">
+                <div class="brandname">
+                  <p style="font-size : 20px"> Sara Long-Sleeve Shirt </p>
+                </div>
+                <div class="color" style="color : #B89D9D;">
+                  <p> Color: </p>
+                  <div class="color-display" style="background: rgb(255, 255, 255); width: 16px; height: 16px"></div>
+                </div>
+                <div class="size">
+                  <p style="color: #B89D9D;"> Size : XL</p>
+                </div>
+              </div>
+            </div>
+            <div class="item3">
+              <div class="item3-img" style="width: 62px; height: 69px;border: 2px solid; background: whitesmoke">
+                <div class="notifi" style="border-radius: 50px; background: #1F4A42; border: 2px solid; position:absolute; width: 20px; height: 20px; margin-left: 50px; margin-top: -10px"><p style="color: white; margin-left:5px"> 1</p></div>
+              </div>
+              <div class="item3-des">
+                <div class="brandname">
+                  <p style="font-size : 20px"> Sara Long-Sleeve Shirt </p>
+                </div>
+                <div class="color" style="color : #B89D9D;">
+                  <p> Color: </p>
+                  <div class="color-display" style="background: rgb(0, 0, 0); width: 16px; height: 16px"></div>
+                </div>
+                <div class="size">
+                  <p style="color: #B89D9D;"> Size : XL</p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="coupon-apply">
+          <label for="text-coupon">
+            <input type="text" placeholder="Coupon Number" id="text-coupon" style="width: 307px; height: 52px">
+          </label>
+          <label for="apply-btn">
+            <input type="submit" value="Apply" style="width: 98px; height: 52px; font-size: 24px;color:#F2D07D; background-color: #1F4A42" >
+          </label>
+        </div>
+        <div class="total-des">
+          <div class="subtotal-dis">
+            <div class="subtotal">
+              <div style="font-size: 20px;">SubTotal : </div>
+              <div style="margin-right: 20px; font-size: 25px">$210.00</div>
+            </div>
+            <div class="delivery-dis">
+              <div class="delivery">
+                <div style="font-size: 20px;">Delivery : </div>
+                <div style="margin-right: 20px; font-size: 25px">$3.00</div>
+              </div>
+            </div>  
+          </div>
+          <hr style="width: 415px; margin-top: 70px;">
+          <div class="total-dis">
+            <div class="total" style="margin-top: 70px">
+              <div style="font-size: 25px;">Total : </div>
+              <div style="margin-left: 25px; margin-right: 20px; font-size: 25px">$213.00 <br></div>
+            </div>
+            <p style="margin-top: 50px; margin-left: 350px; color: #888080"> ៛874,000</p>
+            <p style="margin-top: 50px; margin-left: 40px; color: #888080"> Amount might vary depending on the change rate</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <footer>
-        <div class="subscribe-container">
-            <p class="subscribe-text">Don't Miss Out! Subscribe for Product Updates.</p>
-            <form action="">
-                <input type="email" name="email" id="email" placeholder="Your Email Address">
-                <input type="submit" value="SUBSCRIBE">
-            </form>
+      <div class="subscribe-container">
+        <p class="subscribe-text">
+          Don't Miss Out! Subscribe for Product Updates.
+        </p>
+        <form action="">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Your Email Address"
+          />
+          <input type="submit" value="SUBSCRIBE" />
+        </form>
+      </div>
+      <div class="links-container">
+        <div class="inner-links-container">
+          <p class="link-logo">Fashion Vista</p>
+          <p class="slogan">Your Fashion, Your Vista</p>
         </div>
-        <div class="links-container">
-            <div class="inner-links-container">
-                <p class="link-logo">Fashion Vista</p>
-                <p class="slogan">Your Fashion, Your Vista</p>
-            </div>
-            <div class="inner-links-container">
-                <p class="link-title">Quick Links</p>
-                <ul>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </div>
-            <div class="inner-links-container">
-                <p class="link-title">Categories</p>
-                <ul>
-                    <li><a href="men.html">Men</a></li>
-                    <li><a href="women.html">Women</a></li>
-                    <li><a href="kid.html">Kids</a></li>
-                </ul>
-            </div>
-            <div class="inner-links-container">
-                <p class="link-title">Connects</p>
-                <ul>
-                    <li><a href="#"><i class="fa-brands fa-square-x-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                </ul>
-            </div>
+        <div class="inner-links-container">
+          <p class="link-title">Quick Links</p>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
         </div>
-        <div class="copright-container">
-            &copy 2024 Fashion Vista - All Rights Reserved
+        <div class="inner-links-container">
+          <p class="link-title">Categories</p>
+          <ul>
+            <li><a href="men.html">Men</a></li>
+            <li><a href="women.html">Women</a></li>
+            <li><a href="kid.html">Kids</a></li>
+          </ul>
         </div>
+        <div class="inner-links-container">
+          <p class="link-title">Connects</p>
+          <ul>
+            <li>
+              <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="copright-container">
+        &copy 2024 Fashion Vista - All Rights Reserved
+      </div>
     </footer>
-</body>
+  </body>
 </html>

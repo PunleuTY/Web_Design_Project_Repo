@@ -38,7 +38,63 @@
     <title>Fashion Vista</title>
   </head>
   <body>
-    <div class="signUp-container">
+    <div class="login-container">
+      <div class="login-form">
+        <h2>LOGIN</h2>
+        <label for="email"
+          ><p style="margin-left: 20px">Email</p>
+          <input
+            type="email"
+            id="email"
+            placeholder="Type Your Email"
+            style="margin-left: 20px"
+          />
+        </label>
+        <label for="password">
+          <p style="margin-left: 20px">Password</p>
+          <input
+            type="password"
+            placeholder="Type your password"
+            style="margin-left: 20px"
+          />
+        </label>
+        <p style="color:#8f8f90 ; margin-left: 215px; margin-top: -10px"> Forget Password</p>
+    </label>
+    <label for="signUp-btn">
+      <input
+        type="submit"
+        value="LOG IN"
+        onclick="window.location.href='./home.html';"
+        style="
+          width: 305px;
+          height: 40px;
+          background: #f2d07d;
+          border: 0px;
+          font-weight: bold;
+          font-size: 20px;
+          cursor: pointer;
+          margin-top: -100px;
+          color: #1f4a42;
+          margin-left: 20px
+        "
+      />
+    </label>
+        <p style="color: #8f8f90; margin-left: 120px; ">Or Sign Up with</p>
+        <div class="social-icons">
+          <br />
+          <a
+            href="#"
+            class="fa fa-google"
+            style="margin-left: 130px; margin-top: -30px;"
+          ></a>
+          <a
+            href="#"
+            class="fa fa-facebook"
+            style="margin-left: 180px; margin-top: -30px; width: 30px;"
+          ></a>
+          <br />
+        </div>
+      </div>
       <div class="logo-description">
         <img
           src="./Images/FVLogo.png"
@@ -48,70 +104,21 @@
         <div class="bottom">
           <label for="login-btn">
             <p style="color: #1f4a42; margin-bottom: 15px; margin-left: 4px">
-              Already have account?
+              Don't have account?
             </p>
             <input
               type="submit"
-              value="Log in"
-              onclick="window.location.href='./login.html';"
+              value="Sign UP"
+              onclick="window.location.href='./signup.html';"
               style="
                 width: 150px;
-                height: 35px;
+                height: 40px;
                 font-size: 22px;
                 cursor: pointer;
               "
               id="login-btn"
             />
           </label>
-        </div>
-      </div>
-      <div class="signUp-form">
-        <h2>SIGN UP</h2>
-        <label for="username">
-          <p>Username</p>
-          <input type="text" placeholder="Type your username" id="username" />
-          <br />
-        </label>
-        <label for="email"
-          ><p>Email</p>
-          <input type="email" id="email" placeholder="Type Your Email" />
-        </label>
-        <label for="password">
-          <p>Password</p>
-          <input type="password" placeholder="Type your password" />
-        </label>
-        <label for="signUp-btn">
-          <input
-            type="submit"
-            value="SIGN UP"
-            onclick="window.location.href='./home.html';"
-            style="
-              width: 305px;
-              height: 40px;
-              background: #f2d07d;
-              border: 0px;
-              font-weight: bold;
-              font-size: 20px;
-              cursor: pointer;
-              margin-top: 20px;
-              color: #1f4a42;
-            "
-          />
-        </label>
-        <p style="color: #8f8f90; margin-left: 100px">Or Sign Up with</p>
-        <div class="social-icons">
-          <br />
-          <a
-            href="#"
-            class="fa fa-google"
-            style="margin-left: 110px; margin-top: -10px"
-          ></a>
-          <a
-            href="#"
-            class="fa fa-facebook"
-            style="margin-left: 160px; margin-top: -30px; width: 30px"
-          ></a>
-          <br />
         </div>
       </div>
     </div>

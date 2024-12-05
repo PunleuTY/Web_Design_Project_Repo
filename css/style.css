@@ -14,8 +14,12 @@
     padding: 0px;
 }
 body{
+    height: 100vh;
     margin: 0px;
     padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .advertise-text-run{
     background-color: var(--primaryCol);
@@ -27,6 +31,131 @@ body{
     font-weight: bold;
 }
 
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+h2 {
+    margin: 20px 0;
+}
+.cart-content {
+    display: flex;
+    width: 100%;
+    margin: 20px 0;
+}
+.product-list {
+    width: 70%;
+}
+
+h3{
+    font-family: Inter;
+}
+.Cart-Total{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #F2D07D;
+    height: auto;
+}
+.header-line, .product-item {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+.header-line {
+    font-weight: bold;
+    text-align: left;
+}
+.center-header{
+    font-weight: bold;
+    text-align: center;
+}
+.product-item > div {
+    overflow: hidden;
+    text-align: center;
+}
+.quantity-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.quantity-control input {
+    width: 50px;
+    text-align: center;
+}
+.product-image {
+    width: 160px; 
+    height: 200px; 
+    object-fit: cover; 
+}
+.product-name-container {
+    display: flex;
+    align-items: center;
+}
+.infor-item{
+    text-align: left;
+    padding-left: 20px;
+}
+.product-name {
+    padding-left: 20px;
+    max-width: 300px; 
+    text-overflow: clip;
+}
+
+.right-bar {
+    width: 300px;
+    padding: 20px; 
+}
+.Cart-Total h3 {
+    margin-bottom: 20px;
+}
+.Total-column {
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.total-row1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.total-row div{
+    width: 45%;
+    text-align: left;
+}
+
+.item-list .total-row div {
+    text-align: left;
+    width: 80%;
+}
+
+hr {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+button .last-button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
 /* Main : About Us */
 
 main.about-us-page{

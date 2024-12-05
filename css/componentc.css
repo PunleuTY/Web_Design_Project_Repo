@@ -149,6 +149,77 @@ nav a:hover{
 
 /* Body */
 
+.image-size{
+    width: 220px;
+    height:350px;
+    
+}
+
+.slider-wrapper{
+    display: grid;
+    grid-column: span 4;
+    height: 520px;
+    width: 100%;
+}
+.slider{
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%,0%,0.25);
+    height:520px;
+    width: 100%;
+}
+.slider::-webkit-scrollbar {
+    display: none;  /* For Chrome, Safari, and newer versions of Edge */
+}
+.slider img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+.slide-nav{
+    display: flex;
+    column-gap:1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-nav a:hover{
+    opacity: 1;
+}
+.image_banner{
+    height: 520px;
+    width: 100%;
+}
+
+.saved-circle input {
+    display: none;
+}
+.saved-circle .default {
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+}
+  
+.saved-circle .change {
+    font-size: 20px;
+    color: red;
+    display: none;
+    cursor: pointer;
+}
+  
+.saved-circle input:checked ~ .default {
+    display: none;
+}
+.saved-circle input:checked ~ .change {
+    display: inline-block;
+}
+
 /* Footer */
 footer{
     border: 1px solid black;
@@ -268,6 +339,7 @@ footer form input[type="submit"]:active{
 }
 
 /* Main */
+
 .product-items{
     display: flex;
     flex-direction: column;
@@ -282,31 +354,35 @@ main.products{
 .products-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    padding:20px;
+    gap:20px;
 }
 
 .product-img{
-    width: 130px;
-    height: 200px;
+    width: 220px;
+    height: 350px;
     background-color: #1F4A42;
 }
 
 .saved-circle{
-    border-radius: 50%;
-    background-color: #D9D9D9;
+    border: 1px solid black;
+    background-color: #f9f9f9;
     width: 30px;
     height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2em;
-    position: absolute;
-    top: 40%;
-    left: 8%;
+    position: relative;
+    top: 18%;
+    left: 55%;
+    box-sizing: border-box;
 }
 
 .add-to-cart-btn{
     border: 1px solid black;
-    width: auto;
+    width: 50%;
     padding: 5px;
     display: flex;
     justify-content: center;

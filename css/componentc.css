@@ -81,9 +81,19 @@ a.current-nav{
 
 i.fa-search{
     position: absolute;
-    left: 30.5%;
+    left: 29.5%;
     font-size: 1.1rem;
     z-index: 1;
+}
+
+i.tool-icons{
+    font-size: 1.3em;
+    display: none;
+    transition: transform 0.2s ease;
+}
+
+i.tool-icons:hover{
+    transform: scale(1.1);
 }
 
 .toolbar-container{
@@ -123,6 +133,19 @@ nav a:hover{
         left: 29%;
     }
 }
+
+/* @media screen and (max-width: 320px)
+{
+    i.tool-icons{
+        display: inline;
+    }
+    .upper-header input[type="search"]{
+        display: none;
+    }
+    i.search-icons{
+        display: none;
+    }
+} */
 
 /* Body */
 
@@ -201,7 +224,6 @@ nav a:hover{
 footer{
     border: 1px solid black;
     width: 100%;
-    height: auto;
     background-color: var(--dark);
     display: flex;
     flex-direction: column;
@@ -373,3 +395,4 @@ main.products{
     cursor: pointer;
     border: none;
 }
+
